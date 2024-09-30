@@ -1,0 +1,27 @@
+[
+{"name" : "Henry Ashford",
+"gender" : "male",
+"country" : "Canada"
+},
+
+{
+  "name" : "Henry CreateFuture",
+  "gender" : "male",
+  "country" : "Aruba"
+ },
+  {
+    "name" : "Madeline CreateFuture",
+    "gender" : "Female",
+    "country" : "Argentina"
+  },
+  {
+    "name" : "Christina CreateFuture",
+    "gender" : "Female",
+    "country" : "Bahamas"
+  },
+  {
+    "name" : "Johnny Bradley",
+    "gender" : "male",
+    "country" : "Barbados"
+  }
+]

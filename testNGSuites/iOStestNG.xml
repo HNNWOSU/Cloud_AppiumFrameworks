@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+
+    <listeners>
+        <listener class-name="BaseTestUtils.Listeners"/>
+    </listeners>
+    <!--    <test name="BackstageFWDemo">-->
+    <!--        <classes>-->
+    <!--            <class name="iOSFramework.iOsBackstageFWDemo"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <test name="IOSFWork">
+        <classes>
+            <class name="iOSFramework.IOSBasicsFworkTest"/>
+        </classes>
+    </test>
+</suite>

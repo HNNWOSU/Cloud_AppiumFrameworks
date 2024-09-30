@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="BaseTestUtils.Listeners"/>
+    </listeners>
+    <test name="AndroidFWorkDataDriven">
+        <classes>
+            <class name="org.henrynframeworks.eComFWorkDataDriven"/>
+        </classes>
+    </test>
+    <test name="AndroidEComFWork_1">
+        <classes>
+            <class name="org.henrynframeworks.eCommerceFWork_1"/>
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+    <test name="eComFworkHybridApp">
+        <classes>
+            <class name="org.henrynframeworks.eComFworkHybridApp"/>
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+    <test name="MultiTest">
+        <classes>
+            <class name="org.henrynframeworks.eCommMultiTestsFW"/>
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+
+</suite>
